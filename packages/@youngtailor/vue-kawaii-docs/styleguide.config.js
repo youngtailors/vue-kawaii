@@ -1,6 +1,36 @@
 const VueLoaderPlugin = require('vue-loader/lib/plugin')
 
 module.exports = {
+  title: 'Vue Kawaii',
+  template: {
+    head: {
+      meta: [
+        {
+          name: 'description',
+          content: 'Cute Vue SVG Components',
+        },
+      ],
+      links: [
+        {
+          rel: 'stylesheet',
+          href:
+            'https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600',
+        },
+      ],
+    },
+  },
+  theme: {
+    color: {
+      link: '#4B4E6A',
+      linkHover: '#2B3847',
+      baseBackground: '#fff',
+      border: '#D0DAE4',
+      sidebarBackground: '#fff',
+    },
+    fontFamily: {
+      base: '"Source Sans Pro", sans-serif',
+    },
+  },
   components: '../vue-kawaii/src/components/**/[A-Z]*.vue',
   webpackConfig: {
     module: {

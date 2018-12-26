@@ -20,9 +20,11 @@ export default {
     },
     transform: {
       type: String,
+      default: '',
     },
     uniqueId: {
       type: String,
+      required: true,
     },
   },
   render() {
