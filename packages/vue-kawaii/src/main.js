@@ -4,8 +4,8 @@ import CreditCard from './components/creditCard/CreditCard.vue'
 import Ghost from './components/ghost/Ghost.vue'
 import IceCream from './components/iceCream/IceCream.vue'
 import Mug from './components/mug/Mug.vue'
-import Planet from './components/planet/Planet'
-import SpeechBubble from './components/speechBubble/SpeechBubble'
+import Planet from './components/planet/Planet.vue'
+import SpeechBubble from './components/speechBubble/SpeechBubble.vue'
 
 export {
   Backpack,
