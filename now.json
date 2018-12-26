@@ -6,7 +6,7 @@
     {
       "src": "package.json",
       "use": "@now/static-build",
-      "config": { "distDir": "packages/@youngtailors/vue-kawaii-docs/dist" }
+      "config": { "distDir": "packages/vue-kawaii-docs/dist" }
     }
   ]
 }

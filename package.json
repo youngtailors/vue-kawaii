@@ -2,7 +2,7 @@
   "name": "root",
   "private": true,
   "workspaces": [
-    "packages/@youngtailors/*"
+    "packages/*"
   ],
   "devDependencies": {
     "@babel/preset-env": "^7.2.3",
@@ -33,7 +33,7 @@
   },
   "scripts": {
     "build": "lerna run build",
-    "now-build": "lerna run --scope @youngtailors/vue-kawaii-docs build",
+    "now-build": "lerna run --scope vue-kawaii-docs build",
     "clean": "rimraf packages/**/dist",
     "test": "jest",
     "prebuild": "yarn clean",
