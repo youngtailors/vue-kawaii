@@ -29,6 +29,7 @@
     "vue": "^2.5.21",
     "vue-loader": "^15.4.2",
     "vue-styleguidist": "^2.1.1",
+    "vuepress": "^1.0.0-alpha.30",
     "webpack": "^4.28.2"
   },
   "scripts": {
