@@ -2,6 +2,18 @@ const VueLoaderPlugin = require('vue-loader/lib/plugin')
 
 module.exports = {
   title: 'Vue Kawaii',
+  sections: [
+    {
+      name: 'Getting Started',
+      content: 'docs/GetStarted.md',
+    },
+    {
+      name: 'Components',
+      components: '../vue-kawaii/src/components/**/[A-Z]*.vue',
+      exampleMode: 'expand',
+      usageMode: 'expand',
+    },
+  ],
   template: {
     head: {
       meta: [
@@ -31,7 +43,7 @@ module.exports = {
       base: '"Source Sans Pro", sans-serif',
     },
   },
-  components: '../vue-kawaii/src/components/**/[A-Z]*.vue',
+  pagePerSection: true,
   webpackConfig: {
     module: {
       rules: [

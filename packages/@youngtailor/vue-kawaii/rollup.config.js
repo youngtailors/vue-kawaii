@@ -30,11 +30,11 @@ export default [
     output: [
       {
         format: 'es',
-        file: reslv('dist/vuekawaii.es.js'),
+        file: reslv('dist/vue-kawaii.es.js'),
       },
       {
         format: 'cjs',
-        file: reslv('dist/vuekawaii.common.js'),
+        file: reslv('dist/vue-kawaii.common.js'),
         exports: 'named',
       },
     ],
@@ -44,7 +44,7 @@ export default [
     input: reslv('src/main.js'),
     output: {
       format: 'iife',
-      file: reslv('dist/vuekawaii.iife.js'),
+      file: reslv('dist/vue-kawaii.iife.js'),
       name: 'vuekawaii',
       exports: 'named',
     },
