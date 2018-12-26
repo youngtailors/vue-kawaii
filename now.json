@@ -1,5 +1,6 @@
 {
   "name": "vue-kawaii",
+  "alias": "vue-kawaii",
   "version": 2,
   "builds": [
     {
