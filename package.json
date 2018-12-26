@@ -33,6 +33,7 @@
   },
   "scripts": {
     "build": "lerna run build",
+    "now-build": "lerna run --scope @youngtailors/vue-kawaii-docs build",
     "clean": "rimraf packages/**/dist",
     "test": "jest",
     "prebuild": "yarn clean",
