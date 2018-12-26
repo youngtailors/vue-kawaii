@@ -1,5 +1,5 @@
 <div align="center" markdown="1">
-  <img src="../vue-kawaii-logo.png" width="450">
+  <img src="https://github.com/youngtailors/vue-kawaii/raw/master/packages/vue-kawaii-docs/vue-kawaii-logo.png" width="450">
 </div>
 
 Vue Kawaii is a fork of [React Kawaii](https://github.com/miukimiu/react-kawaii). The library of cute SVG illustrations (Vue components). Ideal if you want to give some cuteness and personality to your react application.
