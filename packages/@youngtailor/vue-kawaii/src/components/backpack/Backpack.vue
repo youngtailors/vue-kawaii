@@ -18,6 +18,10 @@ export default {
       type: Number,
       default: 240,
     },
+    /**
+     * One of:
+     * `sad, shocked, happy, blissful, lovestruck, excited, ko`
+     */
     mood: {
       validator(val) {
         return [
