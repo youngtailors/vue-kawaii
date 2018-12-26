@@ -1,0 +1,13 @@
+{
+  "name": "@youngtailor/vue-kawaii-docs",
+  "version": "0.0.0",
+  "author": "Evan N <dacsang97@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "vue-styleguidist server",
+    "build": "vue-styleguidist build"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

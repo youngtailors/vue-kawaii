@@ -1,0 +1,15 @@
+{
+  "name": "@youngtailor/vue-kawaii",
+  "version": "0.0.0",
+  "author": "Evan N <dacsang97@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "rollup -c --environment BUILD:production"
+  },
+  "peerDependencies": {
+    "vue": "^2.5.21"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
