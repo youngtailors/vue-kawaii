@@ -11,6 +11,9 @@ export default {
     Wrapper,
   },
   props: {
+    /**
+     * Size of the width
+     * */
     size: {
       type: Number,
       default: 180,
@@ -29,6 +32,9 @@ export default {
       },
       default: 'ko',
     },
+    /**
+     * Hex color
+     */
     color: {
       type: String,
       default: '#FDA7DC',

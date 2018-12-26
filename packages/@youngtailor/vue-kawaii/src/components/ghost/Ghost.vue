@@ -5,7 +5,7 @@ import Face from '../common/face/Face.vue'
 import Wrapper from '../common/wrapper/Wrapper.js'
 
 export default {
-  name: 'CreditCard',
+  name: 'Ghost',
   components: {
     Face,
     Wrapper,
@@ -16,7 +16,7 @@ export default {
      * */
     size: {
       type: Number,
-      default: 200,
+      default: 240,
     },
     mood: {
       validator(val) {
@@ -37,7 +37,7 @@ export default {
      */
     color: {
       type: String,
-      default: '#83D1FB',
+      default: '#E0E4E8',
     },
   },
   render() {
@@ -45,34 +45,25 @@ export default {
     return (
       <Wrapper>
         <svg
-          width={size * 1.38}
+          width={size * 0.77}
           height={size}
-          viewBox="0 0 198 143"
+          viewBox="0 0 130 168"
           xmlns="http://www.w3.org/2000/svg"
           xmlnsXlink="http://www.w3.org/1999/xlink"
         >
-          <g id="kawaii-creditCard">
-            <g id="kawaii-creditCard__body" fillRule="nonzero">
-              <path
-                d={paths.shape}
-                id="kawaii-creditCard__shape"
-                fill={color}
-              />
+          <g id="kawaii-ghost">
+            <g id="kawaii-ghost__body">
+              <path d={paths.shape} id="kawaii-ghost__shape" fill={color} />
               <path
                 d={paths.shadow}
-                id="kawaii-creditCard__shadow"
-                fill="#000"
-                opacity=".1"
-              />
-              <path
-                id="kawaii-creditCard__stripe"
-                fill="#000"
-                d="M0 17h198v27H0z"
+                id="kawaii-ghost__shadow"
+                fillOpacity=".1"
+                fill="#000000"
               />
             </g>
             <Face
               mood={mood}
-              transform="translate(66 73)"
+              transform="translate(34 57)"
               uniqueId={getUniqueId()}
             />
           </g>

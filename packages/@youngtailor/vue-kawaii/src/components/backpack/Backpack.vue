@@ -11,6 +11,9 @@ export default {
     Wrapper,
   },
   props: {
+    /**
+     * Size of the width
+     * */
     size: {
       type: Number,
       default: 240,
@@ -29,6 +32,9 @@ export default {
       },
       default: 'blissful',
     },
+    /**
+     * Hex color
+     */
     color: {
       type: String,
       default: '#FFD882',
