@@ -4,7 +4,7 @@
   <img src="./packages/vue-kawaii-docs/vue-kawaii-logo.png" width="450">
 </div>
 
-Vue Kawaii is a fork of [React Kawaii](https://github.com/miukimiu/react-kawaii). The library of cute SVG illustrations (react components). Ideal if you want to give some cuteness and personality to your react application.
+Vue Kawaii is a fork of [React Kawaii](https://github.com/miukimiu/react-kawaii). The library of cute SVG illustrations (vue components). Ideal if you want to give some cuteness and personality to your react application.
 
 ## Install from NPM
 
