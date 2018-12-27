@@ -5,11 +5,7 @@
     "packages/*"
   ],
   "devDependencies": {
-    "@babel/preset-env": "^7.2.3",
-    "@vue/babel-helper-vue-jsx-merge-props": "^1.0.0-beta.1",
-    "@vue/babel-plugin-transform-vue-jsx": "^1.0.0-beta.1",
     "babel-eslint": "^10.0.1",
-    "babel-loader": "^8.0.4",
     "eslint": "^5.11.0",
     "eslint-config-prettier": "^3.3.0",
     "eslint-plugin-prettier": "^3.0.0",
@@ -27,9 +23,7 @@
     "rollup-plugin-uglify": "^6.0.0",
     "rollup-plugin-vue": "^4.3.2",
     "vue": "^2.5.21",
-    "vue-loader": "^15.4.2",
-    "vue-styleguidist": "^2.1.1",
-    "webpack": "^4.28.2"
+    "vuepress": "^1.0.0-alpha.30"
   },
   "scripts": {
     "build": "lerna run build",

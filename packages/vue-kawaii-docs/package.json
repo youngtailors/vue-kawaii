@@ -4,10 +4,13 @@
   "author": "Evan N <dacsang97@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "dev": "vue-styleguidist server",
-    "build": "vue-styleguidist build"
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs"
   },
   "publishConfig": {
     "access": "public"
+  },
+  "devDependencies": {
+    "vuepress-plugin-component-docgen": "^0.0.2"
   }
 }
