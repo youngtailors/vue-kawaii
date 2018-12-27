@@ -3,6 +3,9 @@
   "version": "0.1.0",
   "author": "Evan N <dacsang97@gmail.com>",
   "license": "MIT",
+  "files": [
+    "docs/.vuepress/dist"
+  ],
   "scripts": {
     "dev": "vuepress dev docs",
     "build": "vuepress build docs"
