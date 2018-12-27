@@ -6,7 +6,7 @@
 
 [![Build Status](https://travis-ci.com/youngtailors/vue-kawaii.svg?branch=master)](https://travis-ci.com/youngtailors/vue-kawaii) [![codecov](https://codecov.io/gh/youngtailors/vue-kawaii/branch/master/graph/badge.svg)](https://codecov.io/gh/youngtailors/vue-kawaii) [![dependencies Status](https://david-dm.org/youngtailors/vue-kawaii/status.svg)](https://david-dm.org/youngtailors/vue-kawaii) [![devDependencies Status](https://david-dm.org/youngtailors/vue-kawaii/dev-status.svg)](https://david-dm.org/youngtailors/vue-kawaii?type=dev)
 
-Vue Kawaii is a fork of [React Kawaii](https://github.com/miukimiu/react-kawaii). The library of cute SVG illustrations (vue components). Ideal if you want to give some cuteness and personality to your react application.
+Vue Kawaii is a fork of [React Kawaii](https://github.com/miukimiu/react-kawaii). The library of cute SVG illustrations (Vue components). Ideal if you want to give some cuteness and personality to your Vue application.
 
 ## Packages
 
