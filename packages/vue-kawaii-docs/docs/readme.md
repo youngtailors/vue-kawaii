@@ -1,3 +1,5 @@
+# Getting started
+
 <div align="center" markdown="1">
   <img src="https://github.com/youngtailors/vue-kawaii/raw/master/packages/vue-kawaii-docs/vue-kawaii-logo.png" width="450">
 </div>

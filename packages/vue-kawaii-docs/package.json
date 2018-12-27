@@ -9,5 +9,8 @@
   },
   "publishConfig": {
     "access": "public"
+  },
+  "devDependencies": {
+    "vuepress-plugin-component-docgen": "^0.0.2"
   }
 }
