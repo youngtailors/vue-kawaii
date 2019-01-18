@@ -6,7 +6,7 @@ import IceCream from './components/iceCream/IceCream.vue'
 import Mug from './components/mug/Mug.vue'
 import Planet from './components/planet/Planet.vue'
 import SpeechBubble from './components/speechBubble/SpeechBubble.vue'
-import Cat from './components/speechBubble/Cat.vue'
+import Cat from './components/cat/Cat.vue'
 
 export {
   Backpack,
