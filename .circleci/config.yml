@@ -1,7 +1,8 @@
-version: 2.1
-job:
+version: 2
+jobs:
   build:
-    docker: circleci/node:10
+    docker:
+      - image: circleci/node:10
     working_directory: ~/repo
     steps:
       - checkout
